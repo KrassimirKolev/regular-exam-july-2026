@@ -1,0 +1,8 @@
+﻿#!/bin/sh
+echo "Running pre-push unit tests..."
+if [ -f "failing.test" ]; then
+    echo "Error: Unit tests failed! Push blocked."
+    exit 1
+fi
+echo "All tests passed successfully."
+exit 0
