@@ -1,0 +1,2 @@
+const renderDashboard = () => {};
+const updateTheme = () => {};
